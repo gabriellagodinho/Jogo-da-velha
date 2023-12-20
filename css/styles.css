@@ -1,0 +1,124 @@
+body {
+    background-image: url('../assets/fundo-de-desenho-animado-3d-para-criancas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #2d1c7a; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: #5023b9; 
+    font-family: 'Comic Sans MS', cursive; 
+}
+
+#buttons-container button {
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #2b78c0; 
+    color: #f4f1fc; 
+    font-size: 24px;
+    border-radius: 20px; 
+    font-family: 'Comic Sans MS', cursive; 
+}
+
+#container {
+    display: flex;
+    width: 300px;
+    margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box {
+    height: 80px;
+    border: 5px solid #461aac; /* Borda roxa para combinar com o título */
+    box-sizing: border-box;
+    flex: 1 1 33%;
+    cursor: pointer;
+    background-color: #b891d3; /* Azul claro para uma aparência mais amigável */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.box:hover {
+    background-color: #ffd1dc; /* Rosa mais claro ao passar o mouse */
+}
+
+.x {
+    font-size: 36px;
+    color: #ff3333;
+    font-family: 'Comic Sans MS', cursive; /* Fonte mais descontraída */
+}
+
+.o {
+    width: 36px;
+    height: 36px;
+    border: 5px solid #0047cc;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+#scoreboard-container {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.score-box {
+    margin: 0 20px;
+    color: #5023b9; /* Roxo para combinar com o título */
+    font-family: 'Comic Sans MS', cursive; /* Fonte mais descontraída */
+}
+
+#message p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    font-size: 50px;
+    background-color: #ffd1dc;
+    color: #5023b9;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Comic Sans MS', cursive;
+}
+#message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+#message p {
+    font-size: 50px;
+    background-color: #ffd1dc;
+    color: #5023b9;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+
+.hide {
+    display: none !important;
+}
